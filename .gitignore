@@ -1,0 +1,16 @@
+# FreeCAD backups / scratch / locks
+*.FCStd1
+*.FCBak
+*.lock
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Exported artifacts. If you go fully script-first, these are rebuildable from
+# src/ -- uncomment to stop tracking them and keep the repo lean.
+# /build/
+# *.stl
+# *.step
+# *.stp

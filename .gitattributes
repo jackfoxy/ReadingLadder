@@ -1,0 +1,17 @@
+# FreeCAD documents -> rezip clean filter (store inner XML uncompressed so
+# Git can delta-compress across commits). See tools/fcstd-rezip.py.
+*.FCStd  filter=fcstd-rezip
+*.fcstd  filter=fcstd-rezip
+
+# Exported / interchange formats.
+# STEP and BREP are text-ish: let Git treat them as text for line-level deltas.
+*.step   text
+*.stp    text
+*.brep   text
+*.iges   text
+*.igs    text
+
+# Mesh and packed formats are binary (FreeCAD exports binary STL by default).
+*.stl    binary
+*.3mf    binary
+*.obj    binary
