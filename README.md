@@ -73,6 +73,10 @@ Phase 5 exports `build/ReadingLadder.{step,stl}`.
 
 ## Component schematics
 
+See the cut list in [`docs/cutlist.md`](docs/cutlist.md) and the assembled
+drawings in **[`build/ReadingLadder_drawings.pdf`](build/ReadingLadder_drawings.pdf)**
+(11 pages, A4 landscape — one dimensioned page per part).
+
 ```python
 # in FreeCAD: build the parts model + TechDraw pages
 exec(open('/abs/path/to/ReadingLadder/src/reading_ladder_parts.py').read())
@@ -81,7 +85,8 @@ exec(open('/abs/path/to/ReadingLadder/src/reading_ladder_drawings.py').read())
 
 ```bash
 # standalone (no FreeCAD): printable A4 dimensioned shop drawings -> build/drawings/
-python3 src/gen_drawings_svg.py
+python3 src/gen_drawings_svg.py        # 11 per-part SVGs
+python3 src/assemble_drawings_pdf.py   # combine into build/ReadingLadder_drawings.pdf
 ```
 
 The TechDraw pages render when `ReadingLadder_Parts.FCStd` is opened in the
