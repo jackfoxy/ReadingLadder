@@ -5,7 +5,7 @@
 # 3/4" back wall on the far (y=-24) side.
 #
 # Run from FreeCAD Python console:
-#   exec(open('/mnt/mars/gitrepos/freecad-mcp/src/reading_ladder_phase3c_sideshelf.py').read())
+#   exec(open('/mnt/mars/gitrepos/ReadingLadder/src/reading_ladder_phase3c_sideshelf.py').read())
 
 import FreeCAD
 import Part

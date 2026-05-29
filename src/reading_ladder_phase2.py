@@ -1,7 +1,7 @@
 # ReadingLadder - Phase 2: hollow the massing into 3/4" panels
 # Shell operation: remove the bottom face, leave a 3/4" wall everywhere else.
 # Run from FreeCAD Python console:
-#   exec(open('/mnt/mars/gitrepos/freecad-mcp/src/reading_ladder_phase2.py').read())
+#   exec(open('/mnt/mars/gitrepos/ReadingLadder/src/reading_ladder_phase2.py').read())
 
 import FreeCAD
 

@@ -1,6 +1,6 @@
 # ReadingLadder - Phase 1: side-profile massing block
 # Run from FreeCAD Python console:
-#   exec(open('/mnt/mars/gitrepos/freecad-mcp/src/reading_ladder_phase1.py').read())
+#   exec(open('/mnt/mars/gitrepos/ReadingLadder/src/reading_ladder_phase1.py').read())
 
 import FreeCAD
 import Part
@@ -68,5 +68,5 @@ try:
 except Exception as e:
     print("View:", e)
 
-doc.saveAs('/mnt/mars/gitrepos/freecad-mcp/models/ReadingLadder.FCStd')
+doc.saveAs('/mnt/mars/gitrepos/ReadingLadder/models/ReadingLadder.FCStd')
 print("ReadingLadder phase 1 complete.")

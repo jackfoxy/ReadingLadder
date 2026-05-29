@@ -4,7 +4,7 @@
 # bottoms out at the floor (z=0).
 #
 # Run from FreeCAD Python console:
-#   exec(open('/mnt/mars/gitrepos/freecad-mcp/src/reading_ladder_phase3a_cubby.py').read())
+#   exec(open('/mnt/mars/gitrepos/ReadingLadder/src/reading_ladder_phase3a_cubby.py').read())
 
 import FreeCAD
 import Part
