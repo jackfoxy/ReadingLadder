@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210">
+<rect x="3" y="3" width="291" height="204" fill="white" stroke="#111" stroke-width="0.6"/>
+<polygon points="30.00,140.67 267.00,140.67 267.00,35.33 30.00,35.33" fill="none" stroke="#111" stroke-width="0.60"/>
+<line x1="30.00" y1="140.67" x2="30.00" y2="154.17" stroke="#888" stroke-width="0.25"/>
+<line x1="267.00" y1="140.67" x2="267.00" y2="154.17" stroke="#888" stroke-width="0.25"/>
+<line x1="30.00" y1="152.67" x2="267.00" y2="152.67" stroke="#222" stroke-width="0.35"/>
+<line x1="29.01" y1="151.68" x2="30.99" y2="153.66" stroke="#222" stroke-width="0.40"/>
+<line x1="266.01" y1="151.68" x2="267.99" y2="153.66" stroke="#222" stroke-width="0.40"/>
+<text x="148.50" y="151.47" font-family="sans-serif" font-size="3.20" text-anchor="middle" fill="#111">22.5"</text>
+<line x1="30.00" y1="140.67" x2="16.50" y2="140.67" stroke="#888" stroke-width="0.25"/>
+<line x1="30.00" y1="35.33" x2="16.50" y2="35.33" stroke="#888" stroke-width="0.25"/>
+<line x1="18.00" y1="140.67" x2="18.00" y2="35.33" stroke="#222" stroke-width="0.35"/>
+<line x1="17.01" y1="139.68" x2="18.99" y2="141.66" stroke="#222" stroke-width="0.40"/>
+<line x1="17.01" y1="34.34" x2="18.99" y2="36.32" stroke="#222" stroke-width="0.40"/>
+<text x="16.60" y="88.00" font-family="sans-serif" font-size="3.2" text-anchor="middle" fill="#111" transform="rotate(-90 16.60 88.00)">10"</text>
+<rect x="8.00" y="168.00" width="281.00" height="34.00" fill="none" stroke="#111" stroke-width="0.5"/>
+<line x1="8.00" y1="177.00" x2="289.00" y2="177.00" stroke="#222" stroke-width="0.30"/>
+<text x="11.00" y="174.50" font-family="sans-serif" font-size="4.00" text-anchor="start" fill="#111" font-weight="bold">ReadingLadder  —  component shop drawing</text>
+<text x="286.00" y="174.50" font-family="sans-serif" font-size="3.00" text-anchor="end" fill="#111">Scale 1:2   inches</text>
+<text x="11.00" y="183.00" font-family="sans-serif" font-size="3.60" text-anchor="start" fill="#111" font-weight="bold">B  Step tread</text>
+<text x="11.00" y="189.00" font-family="sans-serif" font-size="3.00" text-anchor="start" fill="#111">Material: 3/4" ply     Qty: 3</text>
+<text x="11.00" y="195.00" font-family="sans-serif" font-size="2.70" text-anchor="start" fill="#333">Horizontal. Treads at z = 8, 16, 24 (top = platform).</text>
+</svg>

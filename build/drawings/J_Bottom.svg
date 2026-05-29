@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="297mm" height="210mm" viewBox="0 0 297 210">
+<rect x="3" y="3" width="291" height="204" fill="white" stroke="#111" stroke-width="0.6"/>
+<polygon points="117.43,146.00 179.57,146.00 179.57,30.00 117.43,30.00" fill="none" stroke="#111" stroke-width="0.60"/>
+<line x1="117.43" y1="146.00" x2="117.43" y2="159.50" stroke="#888" stroke-width="0.25"/>
+<line x1="179.57" y1="146.00" x2="179.57" y2="159.50" stroke="#888" stroke-width="0.25"/>
+<line x1="117.43" y1="158.00" x2="179.57" y2="158.00" stroke="#222" stroke-width="0.35"/>
+<line x1="116.44" y1="157.01" x2="118.42" y2="158.99" stroke="#222" stroke-width="0.40"/>
+<line x1="178.58" y1="157.01" x2="180.56" y2="158.99" stroke="#222" stroke-width="0.40"/>
+<text x="148.50" y="156.80" font-family="sans-serif" font-size="3.20" text-anchor="middle" fill="#111">22.5"</text>
+<line x1="117.43" y1="146.00" x2="103.93" y2="146.00" stroke="#888" stroke-width="0.25"/>
+<line x1="117.43" y1="30.00" x2="103.93" y2="30.00" stroke="#888" stroke-width="0.25"/>
+<line x1="105.43" y1="146.00" x2="105.43" y2="30.00" stroke="#222" stroke-width="0.35"/>
+<line x1="104.44" y1="145.01" x2="106.42" y2="146.99" stroke="#222" stroke-width="0.40"/>
+<line x1="104.44" y1="29.01" x2="106.42" y2="30.99" stroke="#222" stroke-width="0.40"/>
+<text x="104.03" y="88.00" font-family="sans-serif" font-size="3.2" text-anchor="middle" fill="#111" transform="rotate(-90 104.03 88.00)">42"</text>
+<rect x="8.00" y="168.00" width="281.00" height="34.00" fill="none" stroke="#111" stroke-width="0.5"/>
+<line x1="8.00" y1="177.00" x2="289.00" y2="177.00" stroke="#222" stroke-width="0.30"/>
+<text x="11.00" y="174.50" font-family="sans-serif" font-size="4.00" text-anchor="start" fill="#111" font-weight="bold">ReadingLadder  —  component shop drawing</text>
+<text x="286.00" y="174.50" font-family="sans-serif" font-size="3.00" text-anchor="end" fill="#111">Scale 1:9   inches</text>
+<text x="11.00" y="183.00" font-family="sans-serif" font-size="3.60" text-anchor="start" fill="#111" font-weight="bold">J  Bottom panel (optional)</text>
+<text x="11.00" y="189.00" font-family="sans-serif" font-size="3.00" text-anchor="start" fill="#111">Material: 3/4" ply     Qty: 1</text>
+<text x="11.00" y="195.00" font-family="sans-serif" font-size="2.70" text-anchor="start" fill="#333">Closes the underside.</text>
+</svg>
