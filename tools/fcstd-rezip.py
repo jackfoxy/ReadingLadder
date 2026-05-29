@@ -10,12 +10,19 @@ The file is byte-for-byte valid and FreeCAD opens STORED zips natively, so no
 smudge filter is needed -- but now the inner XML sits verbatim in the object,
 and Git's own delta compression can diff successive commits effectively.
 
+It also DROPS FreeCAD's preview thumbnail (thumbnails/Thumbnail.png): FreeCAD
+regenerates it on every save, so it is pure binary churn in version control.
+The thumbnail is optional -- FreeCAD opens the document fine without it.
+
 Usage (stdin -> stdout), wired up via tools/setup-filters.sh:
     git config filter.fcstd-rezip.clean "python3 .../tools/fcstd-rezip.py"
 """
 import io
 import sys
 import zipfile
+
+# Entries dropped on the way into Git (volatile / regenerated each save).
+SKIP_PREFIXES = ("thumbnails/",)
 
 
 def main() -> None:
@@ -32,6 +39,8 @@ def main() -> None:
     out = io.BytesIO()
     with zipfile.ZipFile(out, "w", zipfile.ZIP_STORED) as zout:
         for info in zin.infolist():
+            if info.filename.startswith(SKIP_PREFIXES):
+                continue  # drop the volatile preview thumbnail
             # Read with the ORIGINAL compression, then re-store uncompressed.
             content = zin.read(info.filename)
             info.compress_type = zipfile.ZIP_STORED
