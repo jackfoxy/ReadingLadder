@@ -8,9 +8,8 @@ __pycache__/
 *.pyc
 .venv/
 
-# Exported artifacts. If you go fully script-first, these are rebuildable from
-# src/ -- uncomment to stop tracking them and keep the repo lean.
-# /build/
-# *.stl
-# *.step
-# *.stp
+# Exported artifacts -- rebuildable from src/, ignored going forward.
+/build/
+*.stl
+*.step
+*.stp
