@@ -15,7 +15,7 @@ OUT = os.path.abspath(OUT)
 # A4 landscape, mm. Drawing window sits above the titleblock.
 PAGE_W, PAGE_H = 297.0, 210.0
 MARGIN = 8.0
-TB_H = 34.0                       # titleblock height
+TB_H = 42.0                       # titleblock height (fits up to ~5 note lines)
 AREA = (MARGIN, MARGIN, PAGE_W - MARGIN, PAGE_H - MARGIN - TB_H)  # x0,y0,x1,y1
 
 
@@ -125,10 +125,10 @@ class Drawing:
         self.text(x0 + 3, y0 + 15, "%s  %s" % (pid, name), size=3.6, anchor="start", bold=True)
         self.text(x0 + 3, y0 + 21, "Material: %s     Qty: %s" % (material, qty),
                   size=3.0, anchor="start")
-        ny = y0 + 27
+        ny = y0 + 24
         for ln in notes:
-            self.text(x0 + 3, ny, ln, size=2.7, anchor="start", color="#333")
-            ny += 3.4
+            self.text(x0 + 3, ny, ln, size=2.6, anchor="start", color="#333")
+            ny += 3.3
 
     def svg(self):
         head = ('<?xml version="1.0" encoding="UTF-8"?>\n'
